@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'wtf';
+  src: url('./font/wtf.eot?91968994');
+  src: url('./font/wtf.eot?91968994#iefix') format('embedded-opentype'),
+       url('./font/wtf.woff?91968994') format('woff'),
+       url('./font/wtf.ttf?91968994') format('truetype'),
+       url('./font/wtf.svg?91968994#wtf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fi-"]:before,
+[class*=" fi-"]:before {
+  font-family: "wtf";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+}
+
+.fi {
+  margin-right: 3px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.fi-weibo:before { content: '\e800'; }
+.fi-twitter:before { content: '\e801'; }
+.fi-github-circled:before { content: '\e802'; }
+.fi-dribbble:before { content: '\e803'; }
+.fi-zhihu:before { content: '\e804'; }
+
+a {
+	color: #999;
+}
+a.weibo:hover{
+	color: #F26B6B;
+}
+
+a.twitter:hover{
+	color: #00AFEF;
+}
+
+a.github:hover{
+	color: #323232;
+}
+
+a.dribbble:hover{
+	color: #EA4688;
+}
+
+a.zhihu:hover{
+	color: #0077D9;
+}
