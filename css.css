@@ -25,7 +25,6 @@
 }
 
 .fi {
-  margin-right: 3px;
   display: inline-block;
   font-size: 35px;
 }
@@ -36,9 +35,42 @@
 .fi-dribbble:before { content: '\e803'; }
 .fi-zhihu:before { content: '\e804'; }
 
+body {
+	font-family: 'Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+	font-size: 16px;
+	color: #494A4C;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80vh;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 10px 0;
+}
+
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
 a {
 	color: #999;
+	text-decoration: none;
 }
+
+a + a {
+	margin-left: 25px;
+}
+
+a:hover {
+	color: #666;
+}
+
 a.weibo:hover{
 	color: #F26B6B;
 }
@@ -57,4 +89,17 @@ a.dribbble:hover{
 
 a.zhihu:hover{
 	color: #0077D9;
+}
+
+.section {
+	margin-top: 10%;
+}
+
+.block {
+	margin-bottom: 20px;
+}
+
+.bio {
+	margin-bottom: 20px;
+  	color: #999;
 }
