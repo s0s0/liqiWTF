@@ -42,11 +42,12 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	max-width: 80vh;
+	padding: 0 20px;
 }
 
 h1 {
 	font-size: 30px;
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 
@@ -55,7 +56,14 @@ h2 {
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 400;
+	color: #554F4F;
+}
+
+h3:hover {
+	color: #4293D1;
 }
 
 a {
@@ -92,14 +100,28 @@ a.zhihu:hover{
 }
 
 .section {
-	margin-top: 10%;
+	margin-top: 8%;
 }
 
 .block {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+	text-align: left;
 }
 
 .bio {
 	margin-bottom: 20px;
   	color: #999;
+}
+
+.description {
+	color: #727272;
+	line-height: 1.8;
+}
+
+.name {
+	font-family: 'Dancing Script';
+}
+
+.link:hover {
+	color: #4293D1;
 }
